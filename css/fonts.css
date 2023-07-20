@@ -1,0 +1,27 @@
+
+/* FKRasterGroteskCompactTrial*/
+
+@font-face{
+    font-family: 'FKRasterRomanCompactTrial-Blended';
+    font-weight: normal;
+    font-style: normal;
+    src: url("/fonts/FKRasterRomanCompactTrial-Blended.otf") format('opentype');
+}
+
+/* Geomanist paragraph style*/
+
+@font-face {
+    font-family: 'Geomanist';
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/Geomanist-Regular.otf") format('opentype');
+}
+
+/* Geomanist style italic*/
+
+@font-face {
+    font-family: 'Geomanist';
+    font-weight: normal;
+    font-style: italic;
+    src: url("../fonts/Geomanist-Regular-Italic.otf") format('opentype');
+}
