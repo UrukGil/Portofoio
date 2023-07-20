@@ -132,3 +132,40 @@ header h4 {
 h3 {
     margin-bottom: 1.5rem;
 }
+
+.image_as_link{
+    text-align: center;
+    margin:6rem;
+}
+
+.project_intro{
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.project_pic{
+    padding: 2rem;
+    margin: auto;
+}
+
+.design_description{
+    padding: 2rem;
+    margin: auto;
+}
+
+.text_element_container{
+    display: flex;
+    justify-content: space-around;
+    margin: 8rem;
+}
+
+.heading_element{
+    min-width: 45%;
+    margin-left: auto;
+}
+
+.paragraph_element{
+    max-width: 40%;
+
+}
