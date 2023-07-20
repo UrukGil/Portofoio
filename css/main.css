@@ -6,7 +6,6 @@
 
 body {
     font-family: 'Geomanist', sans-serif;
-    /* max-width: 1500px; */
     margin: auto;
     line-height: 1.5;
 }
@@ -26,11 +25,17 @@ header {
     justify-content: space-between;
 }
 
-header h4{
+header h4 {
     margin-left: 1.5vw;
     margin-top: 1.5vw;
     font-size: smaller;
     font-weight: normal;
+}
+
+.nav_title {
+    text-align: center;
+    margin-top: 20rem;
+    margin-bottom: 2rem;
 }
 
 /* interactive element */
@@ -86,4 +91,44 @@ header h4{
 .nav_button:hover,
 .nav_button:focus {
     background-color: #F0E824;
+}
+
+.element_container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.para_with_link {
+    width: 48%;
+    margin-right: auto;
+    padding-left: 1.5rem;
+    border-left: 2px solid #F0E824;
+}
+
+.nav_and_reset_button_element {
+    display: flex;
+    justify-content: space-around;
+    text-align: right;
+    gap: 3rem;
+    width: 45%;
+    margin: auto;
+}
+
+.box_button {
+    padding: 1.5rem 3rem;
+    border: 2px solid black;
+    background-color: white;
+    font-family: 'FKRasterRomanCompactTrial-Blended', sans-serif;
+    font-size: 2rem;
+}
+
+.box_button:hover,
+.box_button:focus {
+    border: 2px solid #F0E824;
+    background-color: #F0E824;
+}
+
+h3 {
+    margin-bottom: 1.5rem;
 }
