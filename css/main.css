@@ -1,4 +1,3 @@
-
 /* basic setting */
 
 * {
@@ -17,10 +16,74 @@ h2,
 h3,
 h4 {
     font-family: 'FKRasterRomanCompactTrial-Blended', sans-serif;
+    margin: 0%;
+    letter-spacing: 1.5px;
 }
 
 header {
     width: 100%;
-    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
 }
 
+header h4{
+    margin-left: 1.5vw;
+    margin-top: 1.5vw;
+    font-size: smaller;
+    font-weight: normal;
+}
+
+/* interactive element */
+
+.title {
+    display: flex;
+    align-items: flex-end;
+    height: 80vh;
+}
+
+.title h1 {
+    margin-left: -100rem;
+    margin-right: 2rem;
+    font-size: 18rem;
+    letter-spacing: 1.5rem;
+}
+
+.yellow_box {
+    background-color: #F0E824;
+    margin: 0%;
+    width: 85vw;
+    height: 25vh;
+}
+
+.style_nav {
+    display: flex;
+    flex-direction: column;
+    font-family: 'FKRasterRomanCompactTrial-Blended', sans-serif;
+    gap: 1rem;
+    max-width: fit-content;
+    border: 1px solid #F0E824;
+    margin-right: 1.5vw;
+    margin-top: 1.5vw;
+}
+
+.nav_button {
+    font-size: smaller;
+    text-align: right;
+    color: black;
+    text-decoration: underline 0.8px;
+    background-color: none;
+}
+
+.in_text_link {
+    font-style: italic;
+    color: black;
+    text-decoration: underline 1.5px;
+    background-color: none;
+}
+
+.in_text_link:hover,
+.in_text_link:focus,
+.nav_button:hover,
+.nav_button:focus {
+    background-color: #F0E824;
+}
