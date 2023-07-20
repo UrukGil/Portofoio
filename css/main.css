@@ -35,13 +35,14 @@ header h4{
 
 /* interactive element */
 
-.title {
+.title_container {
     display: flex;
     align-items: flex-end;
     height: 80vh;
+    margin-bottom: 4rem;
 }
 
-.title h1 {
+.title_container h1 {
     margin-left: -100rem;
     margin-right: 2rem;
     font-size: 18rem;
@@ -61,7 +62,6 @@ header h4{
     font-family: 'FKRasterRomanCompactTrial-Blended', sans-serif;
     gap: 1rem;
     max-width: fit-content;
-    border: 1px solid #F0E824;
     margin-right: 1.5vw;
     margin-top: 1.5vw;
 }
