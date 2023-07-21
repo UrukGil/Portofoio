@@ -169,3 +169,37 @@ h3 {
     max-width: 40%;
 
 }
+
+.navi_font{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid brown;
+    margin: 6rem;
+}
+
+.main_navigation{
+    min-width: 28%;
+}
+
+.font_choice{
+    max-width: 28%;
+}
+
+.Colour_palettes{
+    max-width: 28%;
+}
+
+.color_yellow{
+    background-color: #F0E824;
+}
+
+.color_black{
+    background-color: black;
+    color: white;
+}
+
+.Colour_palettes li{
+    list-style: none;
+    width: 6rem;
+    height: 3rem;
+}
