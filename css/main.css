@@ -38,6 +38,12 @@ header h4 {
     margin-bottom: 2rem;
 }
 
+.aline_center_text{
+    text-align: center;
+    max-width: 60%;
+    margin: auto;
+}
+
 /* interactive element */
 
 .title_container {
@@ -173,7 +179,7 @@ h3 {
 .navi_font{
     display: flex;
     justify-content: space-between;
-    border: 1px solid brown;
+    /* border: 1px solid brown; */
     margin: 6rem;
 }
 
@@ -202,4 +208,11 @@ h3 {
     list-style: none;
     width: 6rem;
     height: 3rem;
+}
+
+.Art_direction{
+    display: flex;
+    margin: 4rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
