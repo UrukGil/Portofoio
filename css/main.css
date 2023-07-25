@@ -15,6 +15,11 @@ a{
     cursor: url('/img/cursor-focus.png'), auto;
 }
 
+::selection {
+    background-color: #F0E824;
+    color: #000000;
+  }
+
 h1,
 h2,
 h3,
