@@ -8,6 +8,15 @@ body {
     font-family: 'Geomanist', sans-serif;
     margin: auto;
     line-height: 1.5;
+    cursor: url('/img/mouse-cursor.png'), auto;
+}
+
+a{
+    cursor: url('/img/cursor-focus.png'), auto;
+}
+
+button{
+    cursor: url('/img/cursor-focus.png'), auto;
 }
 
 h1,
@@ -133,6 +142,7 @@ header h4 {
 .box_button:focus {
     border: 2px solid #F0E824;
     background-color: #F0E824;
+    cursor: url('/img/cursor-focus.png'), auto;
 }
 
 h3 {
