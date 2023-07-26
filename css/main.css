@@ -36,10 +36,11 @@ header {
 }
 
 header h4 {
-    margin-left: 1.5vw;
-    margin-top: 1.5vw;
-    font-size: smaller;
+    margin-left: 2.5vw;
+    margin-top: 1vw;
+    font-size: large;
     font-weight: normal;
+    color: white;
 }
 
 .nav_title {
@@ -79,18 +80,18 @@ header h4 {
 
 .style_nav {
     display: flex;
-    flex-direction: column;
     font-family: 'FKRasterRomanCompactTrial-Blended', sans-serif;
     gap: 1rem;
     max-width: fit-content;
-    margin-right: 1.5vw;
-    margin-top: 1.5vw;
+    margin-right: 2vw;
+    margin-top: 1vw;
 }
 
 .nav_button {
-    font-size: smaller;
+    font-size:large;
     text-align: right;
-    color: black;
+    margin-right: 1rem;
+    color: white;
     text-decoration: underline 0.8px;
     background-color: none;
 }
@@ -227,3 +228,8 @@ h3 {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
+@media only screen and (max-width: 1300px) {
+    
+}
+
