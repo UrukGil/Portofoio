@@ -1,15 +1,15 @@
 .background_container {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
-    background-color: #E6DF4B;
     background-image: url('/img/Group\ 3\ \(3\).png');
-    background-size: cover;
+    background-size:cover;
     background-repeat: no-repeat;
 
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     min-width: fit-content;
+    /* border: 1px solid #E6DF4B; */
 }
 
 
@@ -20,6 +20,7 @@
     /* background-color: #E6DF4B; */
     /* text-align:right; */
     margin: auto;
+    /* border: 1px solid #E6DF4B; */
     /* text-align: center; */
     /* padding: 5rem; */
 }
@@ -28,6 +29,7 @@
     font-family: 'Anton', sans-serif;
     background-color: #F0E824;
     max-width: fit-content;
+    /* border: 1px solid #530105; */
     /* color: white; */
     font-size: 6rem;
     /* border: 1px solid #E6DF4B; */
@@ -38,9 +40,64 @@
     background-color: #F0E824;
 } */
 
-header{
+header {
+    /* border: 1px solid #E6DF4B; */
+    width: 100%;
     background-color: black;
     padding: 1.2rem;
+}
+
+.background_container_1 {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background-image: url('/img/bg2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* gap:1rem; */
+    min-width: fit-content;
+}
+
+.background_container_1 h1 {
+    color: white;
+    width: fit-content;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 5rem;
+    transform: rotate(-8deg);
+    transform-origin: top left;
+    margin-left: 1.5rem;
+    margin-top: 20vw;
+    /* border: 1px solid #E6DF4B; */
+}
+
+.subtitle {
+    /* color: white; */
+    padding: 0.3rem;
+    background-color:#F0E824;
+    transform: rotate(-8deg);
+    transform-origin: bottom left;
+    margin-left: 1.5rem;
+    margin-top: -1rem;
+    width: fit-content;
+    /* border: 1px solid #E6DF4B; */
+}
+
+.section_description{
+    width: 20%;
+    color: white;
+    margin-top: -3rem;
+    align-self: center;
+    text-align: center;
+}
+
+.background_container_1 input{
+    width: 20%;
+    margin: auto;
 }
 
 
@@ -51,9 +108,9 @@ header{
 }
 
 @media only screen and (max-width: 1100px) {
-    .title {
-        /* padding: 6rem; */
-    }
+    /* .title {
+        padding: 6rem;
+    } */
 
 }
 
@@ -85,8 +142,7 @@ header{
         font-size: 1.5rem;
     }
 
-    .hidden-element{
+    .hidden-element {
         display: none;
     }
 }
-
