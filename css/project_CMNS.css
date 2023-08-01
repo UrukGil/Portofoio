@@ -31,8 +31,8 @@
 
 .sum_pic{
     /* display: block; */
-    width: 40%;
-    /* height:auto; */
+    width: 800px;
+    height: fit-content;
 }
 
 p {
@@ -81,7 +81,7 @@ p {
     height: 220px;
 }
 
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1500px){
     .sum{
         flex-direction: column;
     }
