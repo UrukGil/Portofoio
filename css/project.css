@@ -66,6 +66,7 @@ p {
     gap: 2rem;
     margin-bottom: 8rem;
     flex-wrap: wrap;
+    background-color: #a3a3a3;
 }
 
 .co_designer_info{
@@ -77,8 +78,7 @@ p {
 
 
 .designer img{
-    width: 150px;
-    height: 220px;
+    width: 250px;
 }
 
 @media only screen and (max-width: 1500px){
