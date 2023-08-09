@@ -251,13 +251,13 @@ footer h4 {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
     align-items: stretch;
 }
 
 .footer_item {
     color: white;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
 }
 
@@ -282,17 +282,3 @@ footer h4 {
     background-color: #F0E824;
     color: black;
 } 
-
-/* .footer_text_link{
-    width: fit-content;
-  }
-
-.link_icon {
-    margin-bottom: 0.5rem;
-    margin-top: auto;
-}
-
-@media only screen and (max-width: 1300px) {
-    
-}
-
