@@ -112,6 +112,21 @@ header h4 {
     background-color: #F0E824;
 }
 
+.in_text_link_v2 {
+    font-style: italic;
+    color: white;
+    text-decoration: underline 1.5px;
+    background-color: none;
+}
+
+.in_text_link_v2:hover,
+.in_text_link_v2:focus,
+.nav_button:hover,
+.nav_button:focus {
+    color: #000000;
+    background-color: #F0E824;
+}
+
 .element_container {
     display: flex;
     justify-content: space-between;
