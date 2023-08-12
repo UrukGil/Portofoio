@@ -8,12 +8,12 @@ body {
     font-family: 'Geomanist', sans-serif;
     margin: auto;
     line-height: 1.5;
-    cursor: url('/img/mouse-cursor.png'), auto;
+    cursor: url('../img/mouse_cursor.png'), auto;
     /* background-color: #F0E824; */
 }
 
 a{
-    cursor: url('/img/cursor-focus.png'), auto;
+    cursor: url('../img/cursor_focus.png'), auto;
 }
 
 ::selection {
@@ -28,6 +28,7 @@ h4 {
     font-family: 'FKRasterRomanCompactTrial-Blended', sans-serif;
     margin: 0%;
     letter-spacing: 1.5px;
+    text-decoration: none;
 }
 
 header {
@@ -42,6 +43,10 @@ header h4 {
     font-size: large;
     font-weight: normal;
     color: white;
+}
+
+.non_deco{
+    text-decoration: none;
 }
 
 .nav_title {
@@ -161,7 +166,7 @@ header h4 {
 .box_button:focus {
     border: 2px solid #F0E824;
     background-color: #F0E824;
-    cursor: url('/img/cursor-focus.png'), auto;
+    cursor: url('../img/cursor_focus.png'), auto;
 }
 
 h3 {
@@ -277,6 +282,7 @@ footer h4 {
 }
 
 .footer_item a {
+    font-size:0.8rem;
     margin-top: 1rem;
     /* border: 1px solid red; */
 }
@@ -297,3 +303,77 @@ footer h4 {
     background-color: #F0E824;
     color: black;
 } 
+
+@media only screen and (max-width: 600px) {
+    .footer_content {
+        display: block;
+    }
+
+    .footer h4 {
+        padding-bottom:0;
+    }
+
+    .footer_item {
+        margin-bottom: 2rem;
+    }
+
+    .footer_item a {
+        margin-top: 3px;
+        /* border: 1px solid red; */
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    footer {
+       width: 150%;
+    }
+
+    footer h4 {
+        padding-bottom: 0.25rem;
+        margin-bottom: 0;
+        color: white;
+        /* border: 1px solid red; */
+    }
+    
+    .footer_content {
+        color: white;
+        max-width: 1500px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+    }
+    
+    .footer_item {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .footer_item a {
+        font-size:0.8rem;
+        margin-top: 1rem;
+        /* border: 1px solid red; */
+    }
+
+    @media only screen and (max-width: 350px) {
+        .footer_content {
+            display: block;
+        }
+    
+        .footer h4 {
+            padding-bottom:0;
+        }
+    
+        .footer_item {
+            margin-bottom: 2rem;
+        }
+    
+        .footer_item a {
+            margin-top: 3px;
+            /* border: 1px solid red; */
+        }
+    }
+}
+
