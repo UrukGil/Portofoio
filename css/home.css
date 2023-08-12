@@ -169,7 +169,7 @@ header {
     transform: rotate(-8deg);
     transform-origin: top left;
     margin-left: 1.5rem;
-    margin-top: 23vw;
+    margin-top: 28rem;
     /* border: 1px solid #E6DF4B; */
 }
 
@@ -188,7 +188,7 @@ header {
 .section_description {
     width: 30%;
     color: white;
-    margin-top: -3rem;
+    margin-top: -15rem;
     padding-left: 8rem;
     align-self: center;
     text-align: center;
@@ -262,6 +262,33 @@ header {
 
 }
 
+@media only screen and (max-width: 1400px) {
+    .background_container_1 {
+        background-position: 0 50%;
+    }
+
+    .background_container_1 h1 {
+        font-size: 4rem;
+        margin-top: 24rem;
+        /* border: 1px solid #E6DF4B; */
+    }
+
+    .subtitle {
+        font-size: 0.5rem;
+    }
+
+    .section_description {
+        font-size: 0.5rem;
+        margin-top: -10rem;
+    }
+
+    .background_container_1 input {
+        width: 300px;
+        margin-top: -5rem;
+    }
+
+}
+
 @media only screen and (max-width: 1350px) {
     p {
         font-size: 0.8rem;
@@ -278,6 +305,30 @@ header {
     .title h1 {
         font-size: 4rem;
     }
+}
+
+@media only screen and (max-width: 1100px) {
+    .background_container_1 h1 {
+        font-size: 3rem;
+        margin-top: 24rem;
+        /* border: 1px solid #E6DF4B; */
+    }
+
+    .subtitle {
+        font-size: 0.5rem;
+        margin-top: 0rem;
+    }
+
+    .section_description {
+        width: 33%;
+        padding-left: 5rem;
+    }
+
+    .description_button {
+        margin: 3rem auto;
+        padding-left: 5rem;
+    }
+
 }
 
 @media only screen and (max-width: 1000px) {
@@ -328,22 +379,73 @@ header {
         min-height: 80%;
         display: flex;
         flex-direction: column;
-        align-items: center; 
+        align-items: center;
         min-width: fit-content;
-        gap:2rem;
+        gap: 2rem;
         margin: auto;
     }
-    
+
     .info input {
         width: 500px;
         margin: 0 auto;
     }
-    
+
 }
 
 @media only screen and (max-width: 900px) {
     .title h1 {
         font-size: 3rem;
+    }
+
+    .background_container_1 {
+        /* width: 100%;
+        height: 120vh; */
+        background-image: url('/img/Group\ 5\ \(2\).png');
+        background-position: 0 105%;
+    }
+
+    .background_container_1 h1 {
+        /* font-size: 16rem; */
+        font-weight: lighter;
+        align-self: center;
+        transform: rotate(0);
+        margin-top: -2rem;
+        margin-left: 0.5rem;
+        padding: 0;
+        /* border: 1px solid #E6DF4B; */
+    }
+
+    .subtitle {
+        font-size: 1.5rem;
+        align-self: center;
+        transform: rotate(0);
+        margin-top: -3rem
+        /* padding: 0;
+        color: white;
+        background: none; */
+    }
+
+    .section_description {
+        font-size: 0.3rem;
+        width: 20%;
+        margin-top: 9rem;
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+
+    .description_button {
+        align-self: center;
+        margin: auto;
+        padding: 0;
+        margin-bottom: -0.5rem;
+    }
+
+    .background_container_1 input {
+        width: 200px;
+    }
+
+    .box_button{
+        font-size: 1rem;
     }
 }
 
@@ -362,7 +464,7 @@ header {
     }
 
     .info {
-        gap:2.5rem;
+        gap: 2.5rem;
     }
 
     .info input {
