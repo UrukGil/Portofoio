@@ -21,7 +21,7 @@
 
 .title h1 {
     font-family: 'Anton', sans-serif;
-    padding: 10rem, 0.8rem;
+    /* padding: 10rem, 0.8rem; */
     /* background-color: #F0E824; */
     max-width: fit-content;
     /* border: 1px solid #530105; */
@@ -215,7 +215,7 @@
         margin-right: 13rem;
         margin-top: -10rem;
         margin-bottom: 10rem;
-        scale: 0.8;
+        /* scale: 0.8; */
         /* border: 1px solid white; */
     }
 

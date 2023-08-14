@@ -48,6 +48,42 @@ header h4 {
     color: white;
 }
 
+.fake_box_button {
+    margin-top: 1rem;
+    margin-left: 5rem;
+    border: 1px #000000;
+    width: fit-content;
+    font-family: 'FKRasterRomanCompactTrial-Blended', sans-serif;
+    font-size: 2rem;
+    display: inline-block;
+    padding: 30px 50px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: none;
+    transition: background-color 0.3s ease;
+}
+
+.no_margin{
+    margin: 0;
+}
+
+.black_bg{
+    background-color: black;
+    color: white;
+}
+
+.black_bg:hover, .black_bg:focus{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.fake_box_button:hover, .fake_box_button:focus {
+    background-color:#F0E824;
+    color: black;
+}
+
+
 .non_deco {
     text-decoration: none;
 }
@@ -360,6 +396,25 @@ footer h4 {
 @media only screen and (max-width: 1200px) {
     .film-frame {
         margin-top: 6rem;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .fake_box_button{
+        margin: 0;
+        font-size: 1rem;
+        padding: 15px 15px;
+    }
+
+    .black_bg{
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    .fake_box_button{
+        font-size: 1rem;
+        padding: 15px 15px;
     }
 }
 
