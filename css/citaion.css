@@ -1,0 +1,57 @@
+/*
+citation
+*/
+
+
+/*
+  Citation template
+*/
+
+a{
+    color:white;
+}
+
+.title{
+    margin: 5rem 15rem;
+    text-align: center;
+}
+
+.cite{
+    display: block;
+    margin: 5rem 15rem;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.cite li{
+    margin-bottom: 5px;
+}
+
+/*
+  index(homepage) responsive
+*/
+
+@media only screen and (max-width: 900px){
+    .title{
+        margin-left: 5%;
+        text-align: left;
+    }
+
+
+    .cite{
+        margin-left: 5%;
+        text-align: left;
+        display: block;
+        width: 90vw;
+    }
+
+}
+
+@media only screen and (max-width: 450px){
+
+    .cite{
+        width: 120vw;
+    }
+
+}
+
