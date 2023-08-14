@@ -10,6 +10,7 @@
 //   });
 // });
 
+
 const filmStrip = document.querySelector('.film-strip');
 
 let images = filmStrip.querySelectorAll('img');
@@ -20,3 +21,9 @@ images.forEach(img => {
 });
 
 filmStrip.style.width = totalWidth + 'px';
+
+// 添加动画结束事件监听器
+filmStrip.addEventListener('animationiteration', () => {
+    // 将滚动位置重置到第一帧
+    filmStrip.style.transform = 'translateY(0)';
+});

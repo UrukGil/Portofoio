@@ -62,12 +62,11 @@
     background-color: #F0E824;
 } */
 
-header {
-    /* border: 1px solid #E6DF4B; */
+/* header {
     width: 100%;
     background-color: black;
     padding: 1.2rem;
-}
+} */
 
 .about {
     width: 100%;
@@ -108,35 +107,6 @@ header {
     align-self: center;
     text-align: center;
 }
-
-/* .film-frame {
-    width: 40vw;
-    height: 40vw;
-    margin: auto;
-    position: relative;
-    overflow: hidden;
-}
-
-.film-strip {
-    display: flex;
-    flex-direction: column;
-    animation: scrollFilmStrip 15s linear infinite;
-}
-
-.film-strip img {
-    width: auto;
-    height: 200px;
-    margin-bottom: 20px;
-}
-
-@keyframes scrollFilmStrip {
-    0% {
-        transform: translateY(0);
-    }
-    100% {
-        transform: translateY(calc(-200px * 3)); 
-    }
-} */
 
 .background_container_1 {
     width: 100%;
