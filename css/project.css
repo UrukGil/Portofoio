@@ -8,7 +8,7 @@ body {
     color: white;
 }
 
-.fake_box_button {
+.fake_button {
     margin-top: 1rem;
     font-family: 'FKRasterRomanCompactTrial-Blended', sans-serif;
     font-size: 2rem;
@@ -21,7 +21,7 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.fake_box_button:hover {
+.fake_button:hover, .fake_button:focus {
     background-color:#F0E824;
     color: black;
 }
@@ -415,7 +415,7 @@ body {
         width: 150%;
     }
 
-    .fake_box_button {
+    .fake_button {
         font-size: 1rem;
         display: inline-block;
     }

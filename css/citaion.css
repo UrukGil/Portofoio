@@ -18,7 +18,7 @@ a{
 
 .cite{
     display: block;
-    margin: 5rem 15rem;
+    margin: 15rem 15rem;
     text-align: center;
     word-wrap: break-word;
 }
@@ -39,6 +39,7 @@ a{
 
 
     .cite{
+        margin-top: 5rem;
         margin-left: 5%;
         text-align: left;
         display: block;
@@ -50,7 +51,7 @@ a{
 @media only screen and (max-width: 450px){
 
     .cite{
-        width: 120vw;
+        width: 90vw;
     }
 
 }
